@@ -1,6 +1,7 @@
 // São classes diversas, praticando os conceitos de Abstração e contrução de classes em si.
 // Exemplos pequenos somente para praticar
 
+// Produto de uma loja
 class Product {
     constructor(){
         this.name = '';
@@ -31,3 +32,5 @@ const Product1 = new Product();
 
 Product1.sell('Arroz', 15.99);
 Product1.cancel('Arroz');
+
+// carrinho de compras ecommerce

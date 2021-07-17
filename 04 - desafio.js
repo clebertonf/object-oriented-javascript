@@ -1,4 +1,4 @@
-// gerar numeros aleatorios a partir de uma quantidade de numeros passada para o metodo 
+// gerar numeros aleatorios a partir de um numero passada para o metodo 
 
 class Dice {
     constructor(){

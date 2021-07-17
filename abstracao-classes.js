@@ -71,3 +71,32 @@
 // console.log(ProductCart1.pickProducts('Celular', 2000));
 
 // console.log(ProductCart1.sumProducts());
+
+// Aluguel de carros
+
+class rentCar {
+    constructor(){
+        this.model = '';
+        this.priceDay = 0;
+        this.numberDays = 0;
+    }
+
+    rent(model, price, days) {
+        this.model = model;
+        this.priceDay = price;
+        this.numberDays = days;
+
+        const totalPrice = {
+            model: this.model,
+            totalPrice: this.numberDays *this.priceDay,
+        };
+
+        return totalPrice;
+    };
+};
+
+const rent1 = new rentCar();
+const rent2 = new rentCar();
+
+console.log(rent1.rent('Corola', 35, 5));
+console.log(rent2.rent('Civic', 50, 12));

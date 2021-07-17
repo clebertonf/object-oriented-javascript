@@ -16,7 +16,6 @@ class Filme {
     }
 
     close(){
-
         this.close = true;
         console.log('Fechando...');
     }

@@ -1,6 +1,6 @@
 // com metodos estaticos não pode se estanciar a classe, apenas acessar metodos  diretamente
 
-class Pessoa {
+class Person {
     constructor(){
         this.nome = '';
     }
@@ -11,4 +11,4 @@ class Pessoa {
     }
 }
 
-Pessoa.showPerson('Cleberton');
+Person.showPerson('Cleberton');
